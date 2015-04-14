@@ -10,7 +10,19 @@ For every step you can checkout the branch with the corresponding name to get to
 
 Here are the list of steps available, and what they are focusing on.
 
+IN PROGRESS:
 * Step 0 - RequireJS setup
+
+TODO (no order yet)
+* CSS: positioning
+* Build with Grunt / Gulp
+* Running unit tests with Jasmine / Mocha/Chai
+* Module pattern in JS
+* Using contexts for RequireJS
+* Simple React component
+* Data visualization with d3
+* etc.
+
 
 # How to do this training yourself
 
