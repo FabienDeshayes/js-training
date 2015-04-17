@@ -2,5 +2,7 @@
   "name": "js-training",
   "version": "0.0.1",
   "description": "HTML/CSS/JS training approaching various concepts and frameworks",
-  "dependencies": {}
+  "dependencies": {
+  	"requirejs": "2.1.17"
+  }
 }
