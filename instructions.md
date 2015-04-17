@@ -74,9 +74,9 @@ Create the ```main.js``` file that will be your application entry point. I recom
 
 The ```require.config``` is the place where you specify things like paths to libraries. It gives you a lot of options but for now we will just define the ```baseUrl``` to point to the ```scripts``` folder. As a side node here, it's good practice to make sure all scripts are in a separated folder, and it can be named js, scripts, src, etc. Sometimes we also have the ```main.js``` file in that folder but as an entry point it can live at the same level as the ```index.html``` file.
 
-The second part of your ```main.js``` file will just require a script called ```app``` and call the initialize method on it.
+The second part of your ```main.js``` file will just require a script called ```app``` and call the ```initialize``` method on it.
 
-Now what else to do in the ```app.js``` file? Some basic Javascript off course! It's important to know how to access the DOM without any library (it's called Vanilla js). so in your ```initialize``` method of your ```app```, use the ```document``` methods to append "Hello World" to the body. The [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Node) is a great reference for all Web APIs, I would advise to always reference it (instead of W3schools).
+Now what else to do in the ```app.js``` file? Some basic Javascript off course! It's important to know how to access the DOM without any library (it's called Vanilla js). so in your ```initialize``` method of your ```app```, use ```document.getElementsByTagName``` and ```Node.innerText``` to append "Hello World" to the body. The [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API) ([Node](https://developer.mozilla.org/en-US/docs/Web/API/Node/) - [document](https://developer.mozilla.org/en-US/docs/Web/API/document/))is a great reference for all Web APIs, I would advise to always reference it (instead of W3schools).
 
 SO if you run your app in your browser, you should now see a nice Hello World showing up on the screen.
 
@@ -109,3 +109,4 @@ So by the end of this training you should have learn how to initialize RequireJS
 
 * [bower.io](http://bower.io/) - with basics on how to use Bower.
 * [requirejs API](http://requirejs.org/docs/api.html) - the RequireJS API documentation - advised to read section §§ 1 at least (Usage)
+* [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) - Free books / articles for VanillaJS concepts. Kind of a "Javascript - the good parts" - but free online!
