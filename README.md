@@ -10,8 +10,11 @@ For every step you can checkout the branch with the corresponding name to get to
 
 Here are the list of steps available, and what they are focusing on.
 
-IN PROGRESS:
+DONE:
 * Step 0 - RequireJS setup
+
+IN PROGRESS:
+* Step 1 - Module pattern in JS
 
 TODO (no order yet)
 * CSS: positioning
