@@ -1,4 +1,4 @@
-# Step 0 - RequireJS setup
+# Step 1 - Module pattern in JS
 
 Please read the instructions.md file to know the aim of this step.
 
